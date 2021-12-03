@@ -1,0 +1,15 @@
+@media screen and (max-width: 770px) {
+  h1 {
+    color: blueviolet;
+  }
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
