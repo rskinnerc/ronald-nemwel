@@ -1,7 +1,11 @@
-@media screen and (max-width: 770px) {
+@media (min-width: 300px ){
   h1 {
     color: blueviolet;
   }
+  body {
+    background-color: lightblue;
+  }
+
 }
 
 #welcome-section {
@@ -9,7 +13,7 @@
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
 }
